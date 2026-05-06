@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header {
+    position: fixed;
+
+}
+
+.contianer {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 2%;
+    gap: 40px;
+}
+
+.logo img {
+    width: 25px;
+    font-size: small;
+}
+
+.navlinks {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: small;
+    align-content: space-between;
+}
+
+.startforfree {
+
+    padding: 4px 10px;
+    border: 1px;
+    border-radius: 15px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: smaller;
+}
+
+.login {
+    padding: 0px 15px;
+    border: 1px black;
+    border-radius: 15px;
+}
+
+.hero {
+    border: 1px solid whitesmoke;
+}
+
+.img1 {
+    position: relative;
+    top: 40px;
+    left: 80px;
+    width: 60px;
+    height: auto;
+    transition: transfrom 0.5s ease-in-out;
+}
+
+.img2 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.img3 {
+    position: relative;
+    top: 40px;
+    left: 300px;
+    width: 60px;
+    height: auto;
+}
+
+.img4 {
+    width: 60px;
+    height: 100px;
+    position: relative;
+    right: 212px;
+    top: 150px;
+}
+
+.img5 {
+    width: 60px;
+    height: auto;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.img6 {
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 300px;
+    right: 250px;
+
+}
+
+.img7 {
+    width: 80px;
+    position: relative;
+    top: 260px;
+    right: 150px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.img8 {
+    width: 50px;
+    position: relative;
+    top: 280px;
+    left: 20px;
+}
+
+.Learning {
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+
+}
+
+.start_learning {
+    background-color: blue;
+    border: 0px whitesmoke;
+    font-size: small;
+    border-radius: 15px;
+    padding: 4px;
+
+}
+
+.content {
+    position: relative;
+    top: 300px;
+    border: 5px sold black;
+    text-align: start;
+    margin-left: 200px;
+}
+
+.matter {
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.h3matter {
+    display: inline;
+
+}
+
+.matter1 span {
+    position: relative;
+    font-size: 4px;
+
+}
+
+.matter2 {
+    position: absolute;
+    top: 51px;
+    left: 40px;
+}
+
+.matter2 span {
+
+    font-size: 4px;
+}
+
+.startforfree1 {
+    border: 0px whitesmoke;
+    border-radius: 15px;
+    align-items: center;
+    background-color: blue;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.watchademo {
+    text-align: center;
+    position: relative;
+    top: 400px;
+    font-size: 10px;
+}
+
+.ademo p {
+    font-weight: bold;
+    font-size: 5px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.Features1 {
+    position: relative;
+    top: 450px;
+    text-align: center;
+
+}
+
+.something {
+
+    font-size: 8px;
+}
+
+.something p {
+    font-size: 4px;
+}
+
+table {
+    border: 0.100px solid black;
+    margin-left: 50px;
+
+    font-size: 10px;
+}
+
+td img {
+    width: 100px;
+}
+
+td button {
+    padding: 4px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.research {
+
+    position: relative;
+    top: 450px;
+    font-size: 5px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.mainpart {
+    display: flex;
+}
+
+.Research {
+    position: relative;
+    left: 25%;
+}
+
+.mainpart1 {
+    position: absolute;
+    right: 35px;
+
+}
+
+.mainpart1 button {
+    font-size: 5px;
+    border: 0px whitesmoke;
+}
+
+.numbers {
+
+    text-align: center;
+    position: relative;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-left: 1px solid black;
+
+
+}
+
+.imgpart {
+    position: relative;
+    top: 550px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.img11 {
+    width: 150%;
+    height: 100%;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    border-radius: 5%;
+}
+
+.partnerships {
+    width: 100%;
+    align-content: start;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+
+    left: 80px;
+    font-size: 8px;
+    display: block;
+
+}
+
+.butns {
+    display: flex;
+}
+
+.partnerships button {
+    font-size: 5px;
+}
+
+.but1 {
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
+    padding: 1px;
+    color: black;
+}
+
+.but2 {
+    background-color: blue;
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
+    color: aliceblue;
+    padding: 1px;
+}
+

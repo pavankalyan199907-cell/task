@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        iframe {
+            width: 100%;
+            height: 1500px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .info-card {
+            border: 1px solid white;
+            background-color: whitesmoke;
+            width: 100px;
+            height: 10px;
+            padding: 25%;
+            position: absolute;
+            left: 20%;
+            top: 50%;
+            z-index: 2;
+
+        }
+
+        .gallery {
+            position: absolute;
+            left: 20%;
+            top: 100%;
+            z-index: 3;
+
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .allimgs {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+    <div class="map-section">
+        <!-- This represents your background map -->
+        <div id="map">
+            <iframe width="100%" height="450" style="border:0;" loading="lazy" allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Sydney,Australia.jpg">
+            </iframe>
+        </div>
+
+        <!-- The overlaying white card -->
+        <div class="info-card">
+            <div class="msg">
+                <input type="name" placeholder="Name*">
+            </div>
+
+            <div class="msg">
+                <input type="emal" placeholder="Email*">
+            </div>
+
+
+            <div class="msg">
+                <input type="message" placeholder="meaage*">
+            </div>
+            <br>
+            <div>
+                <button>Send</button>
+
+            </div>
+            <h2>Visit our shops</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+
+            </p>
+            <p>09:00-19h Monday – Friday
+
+                75-11 Jewett Ave Jersey City, NJ 07304 USA
+
+                + (1) 555 678 786</p>
+        </div>
+        <div class="gallery">
+            <img src="https://bridge248.qodeinteractive.com/wp-content/uploads/2018/06/background-img-2.jpg" alt="">
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
