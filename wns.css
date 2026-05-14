@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+
+    display: flex;
+    background-color: black;
+
+}
+
+.nav-links {
+    gap: 4px;
+}
+
+.nav-links a {
+    padding-left: 450px;
+}
+
+.fa-magnifying-glass {
+    margin-top: 4PX;
+    width: 20px;
+    color: white;
+
+}
+
+.nav-links button {
+    color: white;
+    border: none;
+    background-color: #ed1c24;
+    font-size: 8px;
+    margin-bottom: 5PX;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+.nav-links button:hover {
+    background-color: white;
+    color: #ed1c24;
+}
+
+.wns_logo {
+    width: 40px;
+
+}
+
+.continer {
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.matter-out {
+
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.matter-out p {
+    padding-top: 40px;
+    margin-left: 10%;
+    width: 500px;
+    font-size: 8px;
+}
+
+.span1 {
+    font-size: 8px;
+    margin-right: 300px;
+}
+
+.span2 {
+    font-size: 8px;
+}
+
+.span1:hover {
+    color: #ed1c24;
+    transform: translateY(5px);
+}
+
+.span2:hover {
+    color: #ed1c24;
+    transform: translateY(5px);
+}
+
+.section2 {
+    background-color: black;
+}
+
+.section2 h2 {
+    color: aliceblue;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cards {
+    color: aliceblue;
+    padding-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    font-size: 8px;
+    gap: 40px;
+    width: 100px;
+    border: 1px solid black;
+
+}
+
+.card:hover {
+    color: rgba(46, 44, 44, 0.181);
+    transform: translatey(1px);
+    box-shadow: lightskyblue;
+
+}
+
+.card span {
+    color: #ed1c24;
+}
+
+.card p,
+span {
+    position: relative;
+    bottom: 60px;
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+}
+
+.section2 button {
+    margin-left: 45%;
+    font-size: 8px;
+    border: none;
+    color: #ed1c24;
+    background-color: black;
+}
+
+.section2 button:hover {
+    color: blue;
+
+}
+
+.matter {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    font-size: 10px;
+}
+
+.matter h4 {
+    color: #ed1c24;
+    font-size: 10px;
+}
+
+.matter p {
+    font-size: 10px;
+}
+
+.matter2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-bottom: 1px solid gray;
+
+
+}
+
+.matter2 h3 {
+    width: 200px;
+    font-size: 10px;
+
+}
+
+.matter2 p {
+
+    font-size: 8px;
+    font-size: 10px;
+
+}
+
+.matter2 video {
+    margin-top: -50px;
+    margin-left: 60%;
+
+}
